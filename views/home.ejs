@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Abacus'2K19</title>
+    <link rel="stylesheet" href="/flipclock.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/mobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="icon" href="/images/logo2.png">
+</head>
+
+<body>
+    <div id="layout">
+        <div id="main" class="clip ini">
+            <div id="lines">
+                <div id="line-1" class="line"></div>
+                <div id="line-2" class="line"></div>
+            </div>
+            <div id="logo-cloud">
+                <div id="logo"></div>
+                <a href="https://motorq.co/" target="_blank">
+                    <div id="banner"></div>
+                </a>
+            </div>
+            <div id="clouds">
+                <div id="cloud-1" class="cloud cloud-r"></div>
+                <div id="cloud-2" class="cloud cloud-r"></div>
+                <div id="cloud-3" class="cloud cloud-l"></div>
+                <div id="cloud-4" class="cloud cloud-l"></div>
+                <div id="cloud-5" class="cloud cloud-l"></div>
+            </div>
+            <div id="circles">
+                <div id="arrow-2" class="arrow"></div>
+                <div id="arrow-3" class="arrow"></div>
+                <div id="arrow-4" class="arrow"></div>
+                <div id="dots-1"></div>
+                <div id="dots-2"></div>
+                <div id="curve-1" class="curve"></div>
+                <div id="curve-2" class="curve"></div>
+                <div id="curve-3" class="curve"></div>
+                <div id="building"></div>
+                <div id="circle-1" class="circle"></div>
+                <div id="circle-2" class="circle"></div>
+                <div id="circle-3" class="circle"></div>
+                <div id="abacus">
+                    <div id="a1" class="letter"></div>
+                    <div id="b" class="letter"></div>
+                    <div id="a2" class="letter"></div>
+                    <div id="c" class="letter letter-r"></div>
+                    <div id="u" class="letter letter-r"></div>
+                    <div id="s" class="letter letter-r"></div>
+                </div>
+            </div>
+            <div id="board"></div>
+            <!-- <div id="arrow-1" class="arrow"></div> -->
+        </div>
+        <div id="clock" class="ini"></div>
+        <div id="links" class="ini">
+            <a href="https://www.facebook.com/abacus.cse" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/abacus_ceg" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/csea_abacus" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/abacus_ceg" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</body>
+<script src="/jquery.min.js"></script>
+<script src="/flipclock.min.js"></script>
+<script>
+    $(window).on('load', function () {
+        $('#layout').show();
+    });
+    var ct = new Date();
+    ct.setMinutes(ct.getMinutes() + 330);
+    var val = new Date('2019-03-15') - ct;
+    $('#clock').FlipClock(val / 1000, {
+        clockFace: 'DailyCounter',
+        countdown: true
+    });
+    $(".flip a").click(function (event) { event.preventDefault(); });
+</script>
+
+</html>
