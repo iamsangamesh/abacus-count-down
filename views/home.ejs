@@ -70,6 +70,11 @@
 <script>
     $(window).on('load', function () {
         $('#layout').css({ opacity: 1 });
+        setTimeout(() => {
+            $('#logo-cloud,#lines').css({ opacity: 1 });
+            $('#logo-cloud').animate({ top: '8%' }, 1000);
+            $('#lines').animate({ top: '0' }, 1000);
+        }, 2000);
     });
     var ct = new Date();
     ct.setMinutes(ct.getMinutes() + 330);

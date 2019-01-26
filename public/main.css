@@ -109,6 +109,8 @@ body {
     display: flex;
     position: relative;
     margin: auto;
+    opacity: 0;
+    top: -50%;
 }
 
 .line {
@@ -132,17 +134,11 @@ body {
     height: 30%;
     width: 30%;
     position: absolute;
-    top: 8%;
+    top: -30%;
+    opacity: 0;
     left: 0;
     right: 0;
     margin: auto;
-    animation: logo-cloud 3s infinite;
-}
-
-@keyframes logo-cloud {
-    50% {
-        transform: translateY(-5%);
-    }
 }
 
 #logo {

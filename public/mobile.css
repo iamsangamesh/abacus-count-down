@@ -3,13 +3,8 @@
         width: 100%;
         height: 50%;
     }
-    #logo-cloud {
-        top: 17%;
-    }
-    #logo {
-        width: 70%;
-    }
     #circles {
+        top: 20%;
         height: 60%;
         width: 95%;
     }
@@ -62,7 +57,7 @@
     #links a {
         font-size: 25px;
     }
-    .flip{
+    .flip {
         /* box-shadow: 3px 3px 3px #80143E !important; */
     }
 }
