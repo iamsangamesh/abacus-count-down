@@ -24,6 +24,7 @@
     }
     .flip {
         height: 40% !important;
+        /* box-shadow: 3px 3px 3px #80143E !important; */
     }
     .flip-clock-label {
         font-size: 20px;
@@ -39,7 +40,7 @@
         border-left: #551A8B 1px solid;
         border-right: #551A8B 1px solid;
         height: 10%;
-        width: 100%;
+        width: 99%;
         border-bottom-left-radius: 0;
         border-top-right-radius: 25px;
         margin: 0 auto;
@@ -60,5 +61,8 @@
     }
     #links a {
         font-size: 25px;
+    }
+    .flip{
+        /* box-shadow: 3px 3px 3px #80143E !important; */
     }
 }
