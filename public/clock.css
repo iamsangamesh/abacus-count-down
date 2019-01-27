@@ -110,6 +110,6 @@
 
 @media screen and (orientation:portrait) and (max-width:480px) {
     #clock {
-        transform: scale(0.6);
+        transform: scale(0.7);
     }
 }
