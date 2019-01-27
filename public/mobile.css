@@ -16,32 +16,6 @@
     #clouds {
         width: 95%;
     }
-    #clock {
-        position: relative;
-        top: 15%;
-        transform: scale(0.8);
-        margin: 0;
-    }
-    .flip {
-        height: 40% !important;
-        /* box-shadow: 3px 3px 3px #80143E !important; */
-    }
-    .flip-clock-divider {
-        width: 1%;
-        height: 50%;
-        top: 0;
-        left: -2%;
-    }
-    .flip-clock-label {
-        font-size: 20px;
-    }
-    .flip-clock-dot {
-        transform: scale(0.5);
-    }
-    .inn {
-        font-size: 40px !important;
-        line-height: 100% !important;
-    }
     #links {
         flex-direction: row;
         font-size: 25px;
@@ -58,23 +32,6 @@
 }
 
 @media screen and (orientation:landscape) and (max-width:720px) {
-    .flip-clock-divider {
-        /* width: 1% !important; */
-        height: 80%;
-        /* top: 5%; */
-        left: -0.5%;
-    }
-    .flip-clock-dot {
-        height: 5px;
-        width: 5px;
-    }
-    .flip-clock-label {
-        font-size: 20px;
-    }
-    .inn {
-        font-size: 40px !important;
-        line-height: 100% !important;
-    }
     #links {
         height: 90%;
     }

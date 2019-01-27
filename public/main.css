@@ -37,57 +37,6 @@ body {
     margin: auto;
 }
 
-#clock {
-    position: absolute;
-    bottom: 0;
-    height: 20%;
-    width: 60%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transform: scale(0.8);
-}
-
-.flip {
-    height: 70% !important;
-    width: 10% !important;
-    /* box-shadow: 5px 5px 5px #80143E !important; */
-}
-
-.flip-clock-divider {
-    width: 1%;
-    height: 70%;
-    top: 5%;
-}
-
-.flip-clock-dot {
-    background-color: #441D5B;
-    left: 0;
-}
-
-.flip-clock-dot.top {
-    top: 20%;
-}
-
-.flip-clock-dot.bottom {
-    bottom: 20%;
-}
-
-.flip-clock-label {
-    font-size: 25px;
-    color: #441D5B !important;
-    text-align: center;
-}
-
-.flip-clock-wrapper {
-    display: flex;
-}
-
-.flip-clock-wrapper ul li a div div.inn {
-    background-color: #441D5B;
-    color: white;
-}
-
 #links {
     position: absolute;
     right: 0;
