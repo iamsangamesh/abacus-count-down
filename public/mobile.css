@@ -5,6 +5,8 @@
     }
     #logo {
         width: 60%;
+        /* height: 50%; */
+        margin-top: 10%;
     }
     #circles {
         top: 20%;
@@ -62,7 +64,7 @@
         /* top: 5%; */
         left: -0.5%;
     }
-    .flip-clock-dot{
+    .flip-clock-dot {
         height: 5px;
         width: 5px;
     }
