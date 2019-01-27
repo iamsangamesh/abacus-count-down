@@ -3,6 +3,9 @@
         width: 100%;
         height: 50%;
     }
+    #logo {
+        width: 60%;
+    }
     #circles {
         top: 20%;
         height: 60%;
@@ -21,8 +24,17 @@
         height: 40% !important;
         /* box-shadow: 3px 3px 3px #80143E !important; */
     }
+    .flip-clock-divider {
+        width: 1%;
+        height: 50%;
+        top: 0;
+        left: -2%;
+    }
     .flip-clock-label {
         font-size: 20px;
+    }
+    .flip-clock-dot {
+        transform: scale(0.5);
     }
     .inn {
         font-size: 40px !important;
@@ -44,6 +56,16 @@
 }
 
 @media screen and (orientation:landscape) and (max-width:720px) {
+    .flip-clock-divider {
+        /* width: 1% !important; */
+        height: 80%;
+        /* top: 5%; */
+        left: -0.5%;
+    }
+    .flip-clock-dot{
+        height: 5px;
+        width: 5px;
+    }
     .flip-clock-label {
         font-size: 20px;
     }
@@ -56,8 +78,5 @@
     }
     #links a {
         font-size: 25px;
-    }
-    .flip {
-        /* box-shadow: 3px 3px 3px #80143E !important; */
     }
 }
