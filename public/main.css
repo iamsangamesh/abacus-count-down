@@ -129,7 +129,7 @@ body {
 }
 
 .cloud {
-    animation: cloud 2s ease 2s infinite alternate;
+    animation: cloud 3s linear 2s infinite alternate;
 }
 
 @keyframes cloud {
