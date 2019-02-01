@@ -10,5 +10,7 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
-app.listen(80)
-//app.listen(443)
+app.listen(4000, (err) => {
+    if (err) throw err
+    console.log('App runs on http://localhost:4000')
+})

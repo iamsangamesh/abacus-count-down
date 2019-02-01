@@ -21,7 +21,7 @@ app.set('view engine', 'ejs')
 app.use(express.static('./public'))
 
 app.get('/', (req, res) => {
-    res.render('home')
+	res.render('home')
 })
 
 
@@ -29,7 +29,7 @@ const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 
 httpServer.listen(80, () => {
-        console.log('HTTPS Server running on port 443');
+	console.log('HTTP Server running on port 80');
 });
 httpsServer.listen(443, () => {
 	console.log('HTTPS Server running on port 443');
